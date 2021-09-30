@@ -1,0 +1,30 @@
+h1,
+h2,
+h3,
+html,
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+}
+
+.App {
+  text-align: center;
+  background-color: #61dafb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: #282c34;
+}
