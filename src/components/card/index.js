@@ -5,7 +5,7 @@ export const Card = ({ item }) => {
       {item && (
         <DivStyled>
           <h2>{item.name}</h2>
-          <img src={item.img} />
+          <img src={item.img} alt={`imagem do digimon ${item.name}`} />
         </DivStyled>
       )}
     </>
